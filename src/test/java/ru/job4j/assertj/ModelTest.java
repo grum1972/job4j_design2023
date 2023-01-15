@@ -5,6 +5,7 @@ import org.assertj.core.data.Percentage;
 import static org.assertj.core.api.Assertions.*;
 
 class ModelTest {
+
     @Test
     void checkBoolean() {
         Model model = new Model(1, 5.255d, "name", true);
