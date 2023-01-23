@@ -57,4 +57,11 @@ class SimpleQueueTest {
         queue.push(3);
         assertThat(queue.poll()).isEqualTo(2);
     }
+
+    @Test
+    void whenInAndOutEmpty() {
+        queue = new SimpleQueue<>();
+        assertThatThrownBy(queue::poll)
+                .isInstanceOf(NoSuchElementException.class);
+    }
 }
