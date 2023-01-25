@@ -1,6 +1,7 @@
-package ru.job4j.map;
+package ru.job4j.collection;
 
 import java.util.*;
+import java.util.Map;
 
 public class User {
     private String name;

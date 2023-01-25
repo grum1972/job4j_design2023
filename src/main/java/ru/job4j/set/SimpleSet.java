@@ -14,7 +14,7 @@ public class SimpleSet<T> implements Set<T> {
         if (rsl) {
             set.add(value);
         }
-        return !rsl;
+        return rsl;
     }
 
     @Override
