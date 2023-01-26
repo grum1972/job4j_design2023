@@ -48,4 +48,5 @@ public class SimpleTree<E> implements Tree<E> {
     public boolean isBinary() {
         return findByPredicate(t -> t.children.size() > 2).isEmpty();
     }
+
 }
