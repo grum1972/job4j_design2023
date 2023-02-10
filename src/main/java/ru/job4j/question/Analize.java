@@ -5,7 +5,6 @@ import java.util.*;
 public class Analize {
 
     public static Info diff(Set<User> previous, Set<User> current) {
-
         int addCount = 0;
         int changeCount = 0;
         int delCount = 0;
